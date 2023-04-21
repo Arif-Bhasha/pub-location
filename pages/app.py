@@ -13,7 +13,7 @@ st.write(dir_of_interest)
 #data_path= os.path.join(dir_of_interest, "data","open_pubs1.csv")
 st.write(data_path)
 data_path = data_path.replace("/..",'')
-data = pd.read_csv(data_path)
+data = pd.read_csv(dir_of_interest)
 
 #data = pd.read_csv(r'/Users/vamsi/Downloads/open_pubs1.csv')
 
